@@ -56,4 +56,3 @@ def readMicrophone(DeviceIndex=1, timeout=7, phrase_time_limit=5):
     # button_save_audio.place(x=30, y=10)
     windows.mainloop()
 
-readMicrophone()

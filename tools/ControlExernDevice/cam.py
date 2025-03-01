@@ -33,4 +33,5 @@ def cameraStart(idDeviceCam=0):
         
     except Exception as e:
         print("Error: ", e)
-cameraStart(0)
+
+
