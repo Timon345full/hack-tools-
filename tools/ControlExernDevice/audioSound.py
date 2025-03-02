@@ -1,6 +1,7 @@
 import pyaudio
-import speech_recognition as sr
+import speech_recognition as sr # для считывания записи с микрафона и переобразования в текст 
 import tkinter as tk
+import keyboard # для увелечения значения в функции readMicrophone в переменной record_second чтоб когда нажимал на кнопку и он добовлял значение переменой на 1 минуту и больше 
 
 def readMicrophone(DeviceIndex=1, timeout=7, phrase_time_limit=5):
     windows = tk.Tk()
@@ -56,3 +57,5 @@ def readMicrophone(DeviceIndex=1, timeout=7, phrase_time_limit=5):
     # button_save_audio.place(x=30, y=10)
     windows.mainloop()
 
+def readMicroAndSave(filename="recorded.wav",  record_second=5):
+    pass
