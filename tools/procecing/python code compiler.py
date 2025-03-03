@@ -2,11 +2,11 @@ from tkinter import *
 from tkinter import ttk
 from tkinter.filedialog import asksaveasfilename, askopenfilename
 from tkinter.scrolledtext import ScrolledText
-
+# import os 
 import subprocess
 
-def FileExe():
-    pass
+# def FileExe():
+#     os.system("")
 
 window = Tk()
 window.title("Python IDE")
