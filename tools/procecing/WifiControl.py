@@ -1,5 +1,6 @@
 import subprocess
 import socket
+import os 
 
 def wifiProfiles():
     try:
@@ -23,3 +24,7 @@ def ip():
     hostname = socket.gethostname()
     local_ip = socket.gethostbyname(hostname)
     return local_ip
+
+def udateIp():
+    os.system("uvicorn ipUdate:app --reload")
+    
