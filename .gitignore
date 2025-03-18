@@ -1,4 +1,4 @@
-*.txt
+koments.txt
 *.config
 config.py
 __pycache__
