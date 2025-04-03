@@ -1,6 +1,7 @@
 import keyboard
 import mouse 
 import time 
+import pynput  # для упровление блокировкой мышки
 
 class keyboard:
     def keyloger():
@@ -34,6 +35,11 @@ class keyboard:
                 
         except Exception as e:
             print("Error:", e)
+    
+    def blockKeyboard(timers):
+        for i in range(150):
+            keyboard.block_key(i)
+        time.sleep(timers)
 
 class mouse:
     def posintion():
@@ -56,3 +62,12 @@ class mouse:
         while True:
             mouse.click()
             time.sleep(timersleeper)
+    
+    def blockMove(timers):
+        mouse_listener = pynput.mouse.Listener(suppress=True) 
+        mouse_listener.start()
+        time.sleep(timers)
+    
+    def activeMove():
+        mouse_listener = pynput.mouse.Listener(suppress=True) 
+        mouse_listener.stop()
