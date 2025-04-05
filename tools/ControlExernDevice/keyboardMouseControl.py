@@ -6,8 +6,7 @@ import pynput  # для упровление блокировкой мышки
 class keyboard:
     def keyloger():
         try:
-            def Start():
-                pass 
+            pass
         except Exception as e:
             print("Error: ", e)
 
