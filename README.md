@@ -36,3 +36,10 @@
 <br>13. Использование уязвимости в установленом ПО
 <br>14. Трансляторы для перевода программ на писаной на одном языке программирования на другой
 <br>15. Osint скрипты например blackbird который представлен в нашем репозитории
+<br>git clone https://github.com/p1ngul1n0/blackbird?ysclid=m7tjk72yb0706143690 для установки инструмента blackbird с эго репозитория на github.com
+<br>Обновляем pip и setuptools вот этой командой  pip install -U pip
+<br> python blackbird.py Флаги 
+<br>-u по имени
+<br>-e по email
+<br>-- web открытие поиска спомошью браузера на localhost:5000
+<br> Подробную информацию выв можете найти в документации инструмента blackbird <a href="ttps://github.com/p1ngul1n0/blackbird?ysclid=m7tjk72yb0706143690">Документация</a>
