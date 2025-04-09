@@ -38,6 +38,7 @@
 <br>15. Osint скрипты например blackbird который представлен в нашем репозитории
 <br>git clone https://github.com/p1ngul1n0/blackbird?ysclid=m7tjk72yb0706143690 для установки инструмента blackbird с эго репозитория на github.com
 <br>Обновляем pip и setuptools вот этой командой  pip install -U pip
+<br>Установка зависимостей с файла requirements.txt вот этой командой pip install -r requirements.txt
 <br> python blackbird.py Флаги 
 <br>-u по имени
 <br>-e по email
