@@ -1,0 +1,9 @@
+cd tools
+cd ControlExernDevice/
+cat *
+cd ../
+cd procecing/
+cat *
+cd ../
+cd userInformation/
+cat *
